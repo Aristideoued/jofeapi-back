@@ -48,9 +48,9 @@ import com.stripe.model.Charge;
 import net.javaguides.springboot.exception.ResourceNotFoundException;
 import net.javaguides.springboot.SpringbootPostgresqHibernateExampleApplication;
 import net.javaguides.springboot.entity.Api;
-import net.javaguides.springboot.entity.Trace;
+//import net.javaguides.springboot.entity.Trace;
 import net.javaguides.springboot.repository.ApiRepository;
-import net.javaguides.springboot.repository.TraceRepository;
+//import net.javaguides.springboot.repository.TraceRepository;
 
 @RestController
 @RequestMapping("/jofeapi")
@@ -76,7 +76,7 @@ public class ApiController {
 	private ApiRepository apiRepository;
 	
 	@Autowired
-	private TraceRepository traceRepository;
+	//private TraceRepository traceRepository;
 	
 	@GetMapping("/initApi")
 	public String initData() {
